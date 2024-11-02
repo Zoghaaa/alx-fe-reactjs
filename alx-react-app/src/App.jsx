@@ -17,10 +17,7 @@ function App() {
     <>
       <Header />
       <WelcomeMessage />
-      <UserProfile 
-      name="Zogha" 
-      age="2" 
-      bio="Loves coding and weight lifting" />
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <MainContent />
       <Footer />
 
