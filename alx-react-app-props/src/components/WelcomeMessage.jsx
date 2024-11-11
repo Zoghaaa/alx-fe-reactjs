@@ -1,16 +1,13 @@
-// src/components/UserProfile.jsx
-import { useContext } from "react";
-import UserContext from "../UserContext";
+import React  from "react";
 
-function UserProfile() {
-    const userData = useContext(UserContext);
-
+function WelcomeMessage() {
     return (
         <div>
-            <h2>{userData.name}</h2>
-            <p>Email: {userData.email}</p>
+            <h1>Hello everyone, I am learning React at ALX!</h1>
+            <p>This is a simple JSX component.</p>
+            <p>I am learning about JSX!</p>
         </div>
     );
 }
 
-export default UserProfile;
+export default WelcomeMessage;
