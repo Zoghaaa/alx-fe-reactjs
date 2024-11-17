@@ -8,22 +8,22 @@ const EditRecipeForm = ({ recipeId, onClose }) => {
   const updateRecipe = useRecipeStore((state) => state.updateRecipe);
 
   const [formData, setFormData] = useState({
-    title: recipe.title,
-    description: recipe.description,
+    title: recipe.title || '',
+    description: recipe.description || '',
   });
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
-    updateRecipe(recipeId, formData); // Update the recipe in the store
-    onClose(); // Close the form after submission
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevents the default form submission behavior
+    updateRecipe(recipeId, formData); // Updates the recipe in the Zustand store
+    if (onClose) onClose(); // Closes the form if an `onClose` prop is provided
   };
 
   return (
@@ -48,6 +48,7 @@ const EditRecipeForm = ({ recipeId, onClose }) => {
         />
       </div>
       <button type="submit">Save Changes</button>
+      <button type="button" onClick={onClose}>Cancel</button>
     </form>
   );
 };
