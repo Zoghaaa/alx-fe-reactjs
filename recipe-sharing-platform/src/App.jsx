@@ -1,10 +1,10 @@
 import './App.css';
-import Hello from './components/hello'; // Import the Hello component
+import HomePage from './components/HomePage';
 
 function App() {
   return (
     <>
-      <Hello /> {/* Use the Hello component */}
+      <HomePage /> 
     </>
   );
 }
