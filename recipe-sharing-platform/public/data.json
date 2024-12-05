@@ -18,27 +18,9 @@
       "Combine everything and season with black pepper."
     ]
   },
+ 
   {
     "id": 2,
-    "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
-    "image": "https://plus.unsplash.com/premium_photo-1723575734758-97e6e862a670?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "ingredients": [
-      "500g chicken",
-      "200ml yogurt",
-      "1 onion",
-      "1 can tomato puree",
-      "Garlic, ginger, spices"
-    ],
-    "instructions": [
-      "Marinate the chicken.",
-      "Grill the chicken.",
-      "Cook the gravy with onions, tomatoes, and spices.",
-      "Combine chicken and gravy."
-    ]
-  },
-  {
-    "id": 3,
     "title": "Vegetable Stir Fry",
     "summary": "A quick and healthy stir fry with fresh vegetables and a savory sauce.",
     "image": "https://plus.unsplash.com/premium_photo-1700673590095-d48038a0044e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -58,7 +40,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Beef Tacos",
     "summary": "Mexican-style beef tacos with fresh toppings and zesty lime.",
     "image": "https://plus.unsplash.com/premium_photo-1661730314652-911662c0d86e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -77,7 +59,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Chocolate Chip Cookies",
     "summary": "Classic chocolate chip cookies with a crispy edge and chewy center.",
     "image": "https://images.unsplash.com/photo-1506184341422-6cc152ae474b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
