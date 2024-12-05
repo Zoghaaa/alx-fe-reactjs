@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://images.unsplash.com/photo-1633337474564-1d9478ca4e2e?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "200g spaghetti",
+      "100g bacon",
+      "2 eggs",
+      "50g Parmesan cheese",
+      "Black pepper"
+    ],
+    "instructions": [
+      "Boil the pasta.",
+      "Fry the bacon.",
+      "Mix eggs and Parmesan.",
+      "Combine everything and season with black pepper."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+    "image": "https://plus.unsplash.com/premium_photo-1723575734758-97e6e862a670?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "500g chicken",
+      "200ml yogurt",
+      "1 onion",
+      "1 can tomato puree",
+      "Garlic, ginger, spices"
+    ],
+    "instructions": [
+      "Marinate the chicken.",
+      "Grill the chicken.",
+      "Cook the gravy with onions, tomatoes, and spices.",
+      "Combine chicken and gravy."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vegetable Stir Fry",
+    "summary": "A quick and healthy stir fry with fresh vegetables and a savory sauce.",
+    "image": "https://plus.unsplash.com/premium_photo-1700673590095-d48038a0044e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "1 bell pepper",
+      "1 carrot",
+      "1 zucchini",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "Garlic and ginger"
+    ],
+    "instructions": [
+      "Chop the vegetables.",
+      "Stir fry in sesame oil.",
+      "Add garlic, ginger, and soy sauce.",
+      "Cook until tender."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "Mexican-style beef tacos with fresh toppings and zesty lime.",
+    "image": "https://plus.unsplash.com/premium_photo-1661730314652-911662c0d86e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "500g ground beef",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1/2 cup diced tomatoes",
+      "1/4 cup grated cheese",
+      "Lime wedges"
+    ],
+    "instructions": [
+      "Cook the beef with spices.",
+      "Assemble tacos with beef, lettuce, tomatoes, and cheese.",
+      "Serve with lime wedges."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Chocolate Chip Cookies",
+    "summary": "Classic chocolate chip cookies with a crispy edge and chewy center.",
+    "image": "https://images.unsplash.com/photo-1506184341422-6cc152ae474b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "ingredients": [
+      "2 cups flour",
+      "1 cup butter",
+      "1 cup sugar",
+      "1/2 cup brown sugar",
+      "1 tsp vanilla extract",
+      "1 cup chocolate chips"
+    ],
+    "instructions": [
+      "Mix ingredients.",
+      "Form dough balls.",
+      "Bake at 180°C for 10-12 minutes."
+    ]
+  }
+]
