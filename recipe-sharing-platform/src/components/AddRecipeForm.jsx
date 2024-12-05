@@ -4,39 +4,37 @@ const AddRecipeForm = () => {
   const [formData, setFormData] = useState({
     title: "",
     ingredients: "",
-    steps: "", // Add a new state for steps
+    steps: "",
   });
 
   const [error, setError] = useState("");
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+  const handleChange = (event) => {
+    const { name, value } = event.target; // Properly destructure event.target
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value, // Dynamically update the state
+    }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     const { title, ingredients, steps } = formData;
 
-    // Validation: Ensure all fields are filled
     if (!title || !ingredients || !steps) {
       setError("All fields are required.");
       return;
     }
 
-    // Validation: Ensure at least two ingredients are entered
     const ingredientsArray = ingredients.split("\n");
     if (ingredientsArray.length < 2) {
       setError("Please enter at least two ingredients.");
       return;
     }
 
-    // Handle form submission logic (e.g., sending data to a server or updating state)
     console.log("New Recipe Submitted:", { title, ingredientsArray, steps });
-    setError(""); // Clear error after successful submission
+    setError("");
     alert("Recipe added successfully!");
-
-    // Reset the form
     setFormData({ title: "", ingredients: "", steps: "" });
   };
 
@@ -45,7 +43,6 @@ const AddRecipeForm = () => {
       <h2 className="text-2xl font-bold text-black mb-6 text-center">Add a New Recipe</h2>
       {error && <div className="text-red-500 mb-4">{error}</div>}
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* Recipe Title */}
         <div>
           <label htmlFor="title" className="block font-medium mb-1">
             Recipe Title:
@@ -61,7 +58,6 @@ const AddRecipeForm = () => {
           />
         </div>
 
-        {/* Ingredients */}
         <div>
           <label htmlFor="ingredients" className="block font-medium mb-1">
             Ingredients (separate by new lines):
@@ -76,7 +72,6 @@ const AddRecipeForm = () => {
           ></textarea>
         </div>
 
-        {/* Steps */}
         <div>
           <label htmlFor="steps" className="block font-medium mb-1">
             Preparation Steps (separate by new lines):
@@ -91,10 +86,9 @@ const AddRecipeForm = () => {
           ></textarea>
         </div>
 
-        {/* Submit Button */}
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-900 transition"
+          className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition"
         >
           Submit Recipe
         </button>
