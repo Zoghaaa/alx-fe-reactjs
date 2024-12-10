@@ -135,7 +135,7 @@ function AddRecipeForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="w-full py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          className="w-full py-3 bg-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-900 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 "
         >
           Submit Recipe
         </button>
