@@ -32,7 +32,7 @@ function Search() {
       setUserData(data.items || []);
     } catch (err) {
       console.error(err);
-      setError("An error occurred while fetching data. Please try again later.");
+      setError("Looks like we cant find the user");
     } finally {
       setLoading(false);
     }
