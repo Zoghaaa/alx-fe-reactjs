@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { fetchUserData } from '../services/githubService';
 
-function SearchComponent() {
+function Search() {
   const [username, setUsername] = useState('');
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -55,4 +55,4 @@ function SearchComponent() {
   );
 }
 
-export default SearchComponent;
+export default Search;
